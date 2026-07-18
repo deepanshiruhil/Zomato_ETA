@@ -111,8 +111,8 @@ pip install pandas numpy scikit-learn xgboost matplotlib seaborn joblib
 ### Run Stage 1 (script)
 ```bash
 python food_delivery_eta.py
-# Windows note: if `python` opens the Microsoft Store, use the launcher instead:
-#   py food_delivery_eta.py
+
+
 ```
 Produces everything in `outputs/`.
 
