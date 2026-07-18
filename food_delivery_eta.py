@@ -32,7 +32,7 @@ sns.set_theme(style="whitegrid")
 
 
 BASE_DIR = Path(__file__).resolve().parent
-DEFAULT_DATA = r"C:\Users\deepanshi\Downloads\archive\Zomato Dataset.csv"
+DEFAULT_DATA = r"/Users/deepanshiruhil/Desktop/Zomato_ETA/Zomato Dataset.csv"
 DATA_PATH = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(DEFAULT_DATA)
 
 OUT_DIR = BASE_DIR / "outputs"
