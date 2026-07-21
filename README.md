@@ -89,6 +89,7 @@ zomato ml/
 
 ---
 
+
 ## Quick Start
 
 ### Requirements
@@ -154,7 +155,6 @@ strings.
 ---
 
 ## The Models — How They Work
-
 ### 1. Linear Regression *(Stage 1 baseline)*
 Fits a straight-line relationship: `ETA = w1*feature1 + w2*feature2 + ... + b`. It assumes each feature has a
 constant, additive effect on delivery time. Features are **standardised** (`StandardScaler`) first so
